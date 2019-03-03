@@ -1,0 +1,3177 @@
+{
+  "contractName": "Authentication",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "name": "_manager",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor",
+      "signature": "constructor"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "login",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0xb34e97e8"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "_user",
+          "type": "address"
+        }
+      ],
+      "name": "isRegistered",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0xc3c5a547"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b5060405160208061072d8339810180604052602081101561003057600080fd5b8101908080519060200190929190505050806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505061069c806100916000396000f3fe60806040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063b34e97e814610051578063c3c5a5471461008a575b600080fd5b34801561005d57600080fd5b506100666100fd565b6040518082600381111561007657fe5b60ff16815260200191505060405180910390f35b34801561009657600080fd5b506100d9600480360360208110156100ad57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061010d565b604051808260038111156100e957fe5b60ff16815260200191505060405180910390f35b60006101083361010d565b905090565b60008060008060008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16636a76779f6040518163ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040160206040518083038186803b15801561019857600080fd5b505afa1580156101ac573d6000803e3d6000fd5b505050506040513d60208110156101c257600080fd5b810190808051906020019092919050505073ffffffffffffffffffffffffffffffffffffffff166335a6861a876040518263ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060806040518083038186803b15801561026b57600080fd5b505afa15801561027f573d6000803e3d6000fd5b505050506040513d608081101561029557600080fd5b810190808051906020019092919080519060200190929190805190602001909291908051906020019092919050505093509350935093506000600102841415156102e657600194505050505061066b565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166308edb9b36040518163ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040160206040518083038186803b15801561036957600080fd5b505afa15801561037d573d6000803e3d6000fd5b505050506040513d602081101561039357600080fd5b810190808051906020019092919050505073ffffffffffffffffffffffffffffffffffffffff166335a6861a876040518263ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060806040518083038186803b15801561043c57600080fd5b505afa158015610450573d6000803e3d6000fd5b505050506040513d608081101561046657600080fd5b8101908080519060200190929190805190602001909291908051906020019092919080519060200190929190505050809450819550829650839750505050506000600102841415156104bf57600294505050505061066b565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663bd8c77ff6040518163ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040160206040518083038186803b15801561054257600080fd5b505afa158015610556573d6000803e3d6000fd5b505050506040513d602081101561056c57600080fd5b810190808051906020019092919050505073ffffffffffffffffffffffffffffffffffffffff16636c2b04fd876040518263ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060206040518083038186803b15801561061557600080fd5b505afa158015610629573d6000803e3d6000fd5b505050506040513d602081101561063f57600080fd5b81019080805190602001909291905050501561066257600394505050505061066b565b60009450505050505b91905056fea165627a7a72305820ce58c4ee86874e2fb63a881a26e626b601b8ddb97905036f0eca6855a5ffce060029",
+  "deployedBytecode": "0x60806040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063b34e97e814610051578063c3c5a5471461008a575b600080fd5b34801561005d57600080fd5b506100666100fd565b6040518082600381111561007657fe5b60ff16815260200191505060405180910390f35b34801561009657600080fd5b506100d9600480360360208110156100ad57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061010d565b604051808260038111156100e957fe5b60ff16815260200191505060405180910390f35b60006101083361010d565b905090565b60008060008060008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16636a76779f6040518163ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040160206040518083038186803b15801561019857600080fd5b505afa1580156101ac573d6000803e3d6000fd5b505050506040513d60208110156101c257600080fd5b810190808051906020019092919050505073ffffffffffffffffffffffffffffffffffffffff166335a6861a876040518263ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060806040518083038186803b15801561026b57600080fd5b505afa15801561027f573d6000803e3d6000fd5b505050506040513d608081101561029557600080fd5b810190808051906020019092919080519060200190929190805190602001909291908051906020019092919050505093509350935093506000600102841415156102e657600194505050505061066b565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166308edb9b36040518163ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040160206040518083038186803b15801561036957600080fd5b505afa15801561037d573d6000803e3d6000fd5b505050506040513d602081101561039357600080fd5b810190808051906020019092919050505073ffffffffffffffffffffffffffffffffffffffff166335a6861a876040518263ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060806040518083038186803b15801561043c57600080fd5b505afa158015610450573d6000803e3d6000fd5b505050506040513d608081101561046657600080fd5b8101908080519060200190929190805190602001909291908051906020019092919080519060200190929190505050809450819550829650839750505050506000600102841415156104bf57600294505050505061066b565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663bd8c77ff6040518163ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040160206040518083038186803b15801561054257600080fd5b505afa158015610556573d6000803e3d6000fd5b505050506040513d602081101561056c57600080fd5b810190808051906020019092919050505073ffffffffffffffffffffffffffffffffffffffff16636c2b04fd876040518263ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060206040518083038186803b15801561061557600080fd5b505afa158015610629573d6000803e3d6000fd5b505050506040513d602081101561063f57600080fd5b81019080805190602001909291905050501561066257600394505050505061066b565b60009450505050505b91905056fea165627a7a72305820ce58c4ee86874e2fb63a881a26e626b601b8ddb97905036f0eca6855a5ffce060029",
+  "sourceMap": "174:1649:0:-;;;542:82;8:9:-1;5:2;;;30:1;27;20:12;5:2;542:82:0;;;;;;;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;542:82:0;;;;;;;;;;;;;;;;608:8;598:7;;:18;;;;;;;;;;;;;;;;;;542:82;174:1649;;;;;;",
+  "deployedSourceMap": "174:1649:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;986:96;;8:9:-1;5:2;;;30:1;27;20:12;5:2;986:96:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1210:606;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1210:606:0;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1210:606:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;986:96;1023:8;1050:24;1063:10;1050:12;:24::i;:::-;1043:31;;986:96;:::o;1210:606::-;1267:8;1288:14;1304;1320;1336;1362:7;;;;;;;;;;;:26;;;:28;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1362:28:0;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;1362:28:0;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1362:28:0;;;;;;;;;;;;;;;;1354:43;;;1398:5;1354:50;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1354:50:0;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;1354:50:0;;;;;;;13:3:-1;8;5:12;2:2;;;30:1;27;20:12;2:2;1354:50:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1287:117;;;;;;;;1428:3;1418:13;;:6;:13;;1415:54;;;1453:16;1446:23;;;;;;;;1415:54;1529:7;;;;;;;;;;;:32;;;:34;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1529:34:0;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;1529:34:0;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1529:34:0;;;;;;;;;;;;;;;;1515:55;;;1571:5;1515:62;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1515:62:0;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;1515:62:0;;;;;;;13:3:-1;8;5:12;2:2;;;30:1;27;20:12;2:2;1515:62:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1480:97;;;;;;;;;;;;;;;;1601:3;1591:13;;:6;:13;;1588:60;;;1626:22;1619:29;;;;;;;;1588:60;1673:7;;;;;;;;;;;:29;;;:31;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1673:31:0;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;1673:31:0;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1673:31:0;;;;;;;;;;;;;;;;1662:56;;;1719:5;1662:63;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1662:63:0;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;1662:63:0;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1662:63:0;;;;;;;;;;;;;;;;1659:107;;;1747:19;1740:26;;;;;;;;1659:107;1784:22;1777:29;;;;;;1210:606;;;;:::o",
+  "source": "pragma solidity >=0.5.0;\r\n\r\nimport \"./ContractManager.sol\";\r\nimport \"./Citizen.sol\";\r\nimport \"./BusinessOwner.sol\";\r\nimport \"./Government.sol\";\r\n\r\n/// @title Authentication\r\ncontract Authentication {\r\n\r\n    enum userType { NotRegistered, Citizen, BusinessOwner, Government }\r\n\r\n\r\n    ContractManager manager;\r\n    /**\r\n    * @dev Sets the correct instance of ContractManager so that the contract may be able to call functions from other\r\n    *      contracts\r\n    * @param _manager The address of the instance of ContractManager\r\n    */\r\n    constructor(ContractManager _manager) public {\r\n        manager = _manager;\r\n    }\r\n\r\n    /**\r\n    * @dev Checks if a user with is registered in the platform\r\n    * @param _user The address of the user to check\r\n    */\r\n    modifier onlyExistingUser(address _user) {\r\n        require(isRegistered(_user) != userType.NotRegistered);\r\n        _;\r\n    }\r\n\r\n    /**\r\n    * @dev Returns the user type of the user who calls the function\r\n    */\r\n    function login() public view returns(userType){\r\n        return isRegistered(msg.sender);\r\n    }\r\n\r\n    /**\r\n    * @dev Returns the user type of a given user\r\n    * @param _user The address of the user to check\r\n    */\r\n    function isRegistered(address _user) public view returns(userType){\r\n        (bytes32 param1, bytes32 param2, bytes32 param3, bytes32 param4) = Citizen(manager.getCitizenContract()).login(_user);\r\n        if(param1 != 0x0)\r\n            return userType.Citizen;\r\n        (param1, param2, param3, param4) = BusinessOwner(manager.getBusinessOwnerContract()).login(_user);\r\n        if(param1 != 0x0)\r\n            return userType.BusinessOwner;\r\n        if(Government(manager.getGovernmentContract()).isGovernment(_user))\r\n            return userType.Government;\r\n        return userType.NotRegistered;\r\n\r\n    }\r\n\r\n\r\n}\r\n",
+  "sourcePath": "E:\\Università\\Soldino-PoC\\contracts\\Authentication.sol",
+  "ast": {
+    "absolutePath": "/E/Università/Soldino-PoC/contracts/Authentication.sol",
+    "exportedSymbols": {
+      "Authentication": [
+        118
+      ]
+    },
+    "id": 119,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:0"
+      },
+      {
+        "absolutePath": "/E/Università/Soldino-PoC/contracts/ContractManager.sol",
+        "file": "./ContractManager.sol",
+        "id": 2,
+        "nodeType": "ImportDirective",
+        "scope": 119,
+        "sourceUnit": 622,
+        "src": "28:31:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/E/Università/Soldino-PoC/contracts/Citizen.sol",
+        "file": "./Citizen.sol",
+        "id": 3,
+        "nodeType": "ImportDirective",
+        "scope": 119,
+        "sourceUnit": 457,
+        "src": "61:23:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/E/Università/Soldino-PoC/contracts/BusinessOwner.sol",
+        "file": "./BusinessOwner.sol",
+        "id": 4,
+        "nodeType": "ImportDirective",
+        "scope": 119,
+        "sourceUnit": 288,
+        "src": "86:29:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/E/Università/Soldino-PoC/contracts/Government.sol",
+        "file": "./Government.sol",
+        "id": 5,
+        "nodeType": "ImportDirective",
+        "scope": 119,
+        "sourceUnit": 839,
+        "src": "117:26:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": "@title Authentication",
+        "fullyImplemented": true,
+        "id": 118,
+        "linearizedBaseContracts": [
+          118
+        ],
+        "name": "Authentication",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "Authentication.userType",
+            "id": 10,
+            "members": [
+              {
+                "id": 6,
+                "name": "NotRegistered",
+                "nodeType": "EnumValue",
+                "src": "223:13:0"
+              },
+              {
+                "id": 7,
+                "name": "Citizen",
+                "nodeType": "EnumValue",
+                "src": "238:7:0"
+              },
+              {
+                "id": 8,
+                "name": "BusinessOwner",
+                "nodeType": "EnumValue",
+                "src": "247:13:0"
+              },
+              {
+                "id": 9,
+                "name": "Government",
+                "nodeType": "EnumValue",
+                "src": "262:10:0"
+              }
+            ],
+            "name": "userType",
+            "nodeType": "EnumDefinition",
+            "src": "207:67:0"
+          },
+          {
+            "constant": false,
+            "id": 12,
+            "name": "manager",
+            "nodeType": "VariableDeclaration",
+            "scope": 118,
+            "src": "284:23:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_ContractManager_$621",
+              "typeString": "contract ContractManager"
+            },
+            "typeName": {
+              "contractScope": null,
+              "id": 11,
+              "name": "ContractManager",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 621,
+              "src": "284:15:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_ContractManager_$621",
+                "typeString": "contract ContractManager"
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 21,
+              "nodeType": "Block",
+              "src": "587:37:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 19,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 17,
+                      "name": "manager",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 12,
+                      "src": "598:7:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_ContractManager_$621",
+                        "typeString": "contract ContractManager"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 18,
+                      "name": "_manager",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 14,
+                      "src": "608:8:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_ContractManager_$621",
+                        "typeString": "contract ContractManager"
+                      }
+                    },
+                    "src": "598:18:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ContractManager_$621",
+                      "typeString": "contract ContractManager"
+                    }
+                  },
+                  "id": 20,
+                  "nodeType": "ExpressionStatement",
+                  "src": "598:18:0"
+                }
+              ]
+            },
+            "documentation": "@dev Sets the correct instance of ContractManager so that the contract may be able to call functions from other\r\n     contracts\r\n@param _manager The address of the instance of ContractManager\r",
+            "id": 22,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 15,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 14,
+                  "name": "_manager",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 22,
+                  "src": "554:24:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_ContractManager_$621",
+                    "typeString": "contract ContractManager"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 13,
+                    "name": "ContractManager",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 621,
+                    "src": "554:15:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ContractManager_$621",
+                      "typeString": "contract ContractManager"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "553:26:0"
+            },
+            "returnParameters": {
+              "id": 16,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "587:0:0"
+            },
+            "scope": 118,
+            "src": "542:82:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 36,
+              "nodeType": "Block",
+              "src": "807:85:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "commonType": {
+                          "typeIdentifier": "t_enum$_userType_$10",
+                          "typeString": "enum Authentication.userType"
+                        },
+                        "id": 32,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "argumentTypes": null,
+                          "arguments": [
+                            {
+                              "argumentTypes": null,
+                              "id": 28,
+                              "name": "_user",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 24,
+                              "src": "839:5:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_address",
+                                "typeString": "address"
+                              }
+                            }
+                          ],
+                          "expression": {
+                            "argumentTypes": [
+                              {
+                                "typeIdentifier": "t_address",
+                                "typeString": "address"
+                              }
+                            ],
+                            "id": 27,
+                            "name": "isRegistered",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 117,
+                            "src": "826:12:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_enum$_userType_$10_$",
+                              "typeString": "function (address) view returns (enum Authentication.userType)"
+                            }
+                          },
+                          "id": 29,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "kind": "functionCall",
+                          "lValueRequested": false,
+                          "names": [],
+                          "nodeType": "FunctionCall",
+                          "src": "826:19:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_userType_$10",
+                            "typeString": "enum Authentication.userType"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": "!=",
+                        "rightExpression": {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 30,
+                            "name": "userType",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 10,
+                            "src": "849:8:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_type$_t_enum$_userType_$10_$",
+                              "typeString": "type(enum Authentication.userType)"
+                            }
+                          },
+                          "id": 31,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "memberName": "NotRegistered",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": null,
+                          "src": "849:22:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_userType_$10",
+                            "typeString": "enum Authentication.userType"
+                          }
+                        },
+                        "src": "826:45:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      ],
+                      "id": 26,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        2108,
+                        2109
+                      ],
+                      "referencedDeclaration": 2108,
+                      "src": "818:7:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
+                        "typeString": "function (bool) pure"
+                      }
+                    },
+                    "id": 33,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "818:54:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 34,
+                  "nodeType": "ExpressionStatement",
+                  "src": "818:54:0"
+                },
+                {
+                  "id": 35,
+                  "nodeType": "PlaceholderStatement",
+                  "src": "883:1:0"
+                }
+              ]
+            },
+            "documentation": "@dev Checks if a user with is registered in the platform\r\n@param _user The address of the user to check\r",
+            "id": 37,
+            "name": "onlyExistingUser",
+            "nodeType": "ModifierDefinition",
+            "parameters": {
+              "id": 25,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 24,
+                  "name": "_user",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 37,
+                  "src": "792:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 23,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "792:7:0",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "791:15:0"
+            },
+            "src": "766:126:0",
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 47,
+              "nodeType": "Block",
+              "src": "1032:50:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 43,
+                          "name": "msg",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 2105,
+                          "src": "1063:3:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_magic_message",
+                            "typeString": "msg"
+                          }
+                        },
+                        "id": 44,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "sender",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": null,
+                        "src": "1063:10:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address_payable",
+                          "typeString": "address payable"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address_payable",
+                          "typeString": "address payable"
+                        }
+                      ],
+                      "id": 42,
+                      "name": "isRegistered",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 117,
+                      "src": "1050:12:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_enum$_userType_$10_$",
+                        "typeString": "function (address) view returns (enum Authentication.userType)"
+                      }
+                    },
+                    "id": 45,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1050:24:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_userType_$10",
+                      "typeString": "enum Authentication.userType"
+                    }
+                  },
+                  "functionReturnParameters": 41,
+                  "id": 46,
+                  "nodeType": "Return",
+                  "src": "1043:31:0"
+                }
+              ]
+            },
+            "documentation": "@dev Returns the user type of the user who calls the function\r",
+            "id": 48,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "login",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 38,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1000:2:0"
+            },
+            "returnParameters": {
+              "id": 41,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 40,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 48,
+                  "src": "1023:8:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_enum$_userType_$10",
+                    "typeString": "enum Authentication.userType"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 39,
+                    "name": "userType",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 10,
+                    "src": "1023:8:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_userType_$10",
+                      "typeString": "enum Authentication.userType"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1022:10:0"
+            },
+            "scope": 118,
+            "src": "986:96:0",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 116,
+              "nodeType": "Block",
+              "src": "1276:540:0",
+              "statements": [
+                {
+                  "assignments": [
+                    56,
+                    58,
+                    60,
+                    62
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 56,
+                      "name": "param1",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 116,
+                      "src": "1288:14:0",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes32",
+                        "typeString": "bytes32"
+                      },
+                      "typeName": {
+                        "id": 55,
+                        "name": "bytes32",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "1288:7:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes32",
+                          "typeString": "bytes32"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    {
+                      "constant": false,
+                      "id": 58,
+                      "name": "param2",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 116,
+                      "src": "1304:14:0",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes32",
+                        "typeString": "bytes32"
+                      },
+                      "typeName": {
+                        "id": 57,
+                        "name": "bytes32",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "1304:7:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes32",
+                          "typeString": "bytes32"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    {
+                      "constant": false,
+                      "id": 60,
+                      "name": "param3",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 116,
+                      "src": "1320:14:0",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes32",
+                        "typeString": "bytes32"
+                      },
+                      "typeName": {
+                        "id": 59,
+                        "name": "bytes32",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "1320:7:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes32",
+                          "typeString": "bytes32"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    {
+                      "constant": false,
+                      "id": 62,
+                      "name": "param4",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 116,
+                      "src": "1336:14:0",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes32",
+                        "typeString": "bytes32"
+                      },
+                      "typeName": {
+                        "id": 61,
+                        "name": "bytes32",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "1336:7:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes32",
+                          "typeString": "bytes32"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 71,
+                  "initialValue": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 69,
+                        "name": "_user",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 50,
+                        "src": "1398:5:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": null,
+                        "arguments": [
+                          {
+                            "argumentTypes": null,
+                            "arguments": [],
+                            "expression": {
+                              "argumentTypes": [],
+                              "expression": {
+                                "argumentTypes": null,
+                                "id": 64,
+                                "name": "manager",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 12,
+                                "src": "1362:7:0",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_contract$_ContractManager_$621",
+                                  "typeString": "contract ContractManager"
+                                }
+                              },
+                              "id": 65,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "memberName": "getCitizenContract",
+                              "nodeType": "MemberAccess",
+                              "referencedDeclaration": 524,
+                              "src": "1362:26:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_function_external_view$__$returns$_t_address_$",
+                                "typeString": "function () view external returns (address)"
+                              }
+                            },
+                            "id": 66,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "kind": "functionCall",
+                            "lValueRequested": false,
+                            "names": [],
+                            "nodeType": "FunctionCall",
+                            "src": "1362:28:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          ],
+                          "id": 63,
+                          "name": "Citizen",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 456,
+                          "src": "1354:7:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_contract$_Citizen_$456_$",
+                            "typeString": "type(contract Citizen)"
+                          }
+                        },
+                        "id": 67,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "1354:37:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Citizen_$456",
+                          "typeString": "contract Citizen"
+                        }
+                      },
+                      "id": 68,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "login",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 446,
+                      "src": "1354:43:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_bytes32_$_t_bytes32_$_t_bytes32_$_t_bytes32_$",
+                        "typeString": "function (address) view external returns (bytes32,bytes32,bytes32,bytes32)"
+                      }
+                    },
+                    "id": 70,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1354:50:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$_t_bytes32_$_t_bytes32_$_t_bytes32_$_t_bytes32_$",
+                      "typeString": "tuple(bytes32,bytes32,bytes32,bytes32)"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "1287:117:0"
+                },
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    },
+                    "id": 74,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 72,
+                      "name": "param1",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 56,
+                      "src": "1418:6:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes32",
+                        "typeString": "bytes32"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "!=",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "hexValue": "307830",
+                      "id": 73,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "1428:3:0",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_0_by_1",
+                        "typeString": "int_const 0"
+                      },
+                      "value": "0x0"
+                    },
+                    "src": "1418:13:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 78,
+                  "nodeType": "IfStatement",
+                  "src": "1415:54:0",
+                  "trueBody": {
+                    "expression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 75,
+                        "name": "userType",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 10,
+                        "src": "1453:8:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_enum$_userType_$10_$",
+                          "typeString": "type(enum Authentication.userType)"
+                        }
+                      },
+                      "id": 76,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "memberName": "Citizen",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "1453:16:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_userType_$10",
+                        "typeString": "enum Authentication.userType"
+                      }
+                    },
+                    "functionReturnParameters": 54,
+                    "id": 77,
+                    "nodeType": "Return",
+                    "src": "1446:23:0"
+                  }
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 92,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "components": [
+                        {
+                          "argumentTypes": null,
+                          "id": 79,
+                          "name": "param1",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 56,
+                          "src": "1481:6:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bytes32",
+                            "typeString": "bytes32"
+                          }
+                        },
+                        {
+                          "argumentTypes": null,
+                          "id": 80,
+                          "name": "param2",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 58,
+                          "src": "1489:6:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bytes32",
+                            "typeString": "bytes32"
+                          }
+                        },
+                        {
+                          "argumentTypes": null,
+                          "id": 81,
+                          "name": "param3",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 60,
+                          "src": "1497:6:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bytes32",
+                            "typeString": "bytes32"
+                          }
+                        },
+                        {
+                          "argumentTypes": null,
+                          "id": 82,
+                          "name": "param4",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 62,
+                          "src": "1505:6:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bytes32",
+                            "typeString": "bytes32"
+                          }
+                        }
+                      ],
+                      "id": 83,
+                      "isConstant": false,
+                      "isInlineArray": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "nodeType": "TupleExpression",
+                      "src": "1480:32:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_tuple$_t_bytes32_$_t_bytes32_$_t_bytes32_$_t_bytes32_$",
+                        "typeString": "tuple(bytes32,bytes32,bytes32,bytes32)"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "id": 90,
+                          "name": "_user",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 50,
+                          "src": "1571:5:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": null,
+                          "arguments": [
+                            {
+                              "argumentTypes": null,
+                              "arguments": [],
+                              "expression": {
+                                "argumentTypes": [],
+                                "expression": {
+                                  "argumentTypes": null,
+                                  "id": 85,
+                                  "name": "manager",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 12,
+                                  "src": "1529:7:0",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_contract$_ContractManager_$621",
+                                    "typeString": "contract ContractManager"
+                                  }
+                                },
+                                "id": 86,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": false,
+                                "lValueRequested": false,
+                                "memberName": "getBusinessOwnerContract",
+                                "nodeType": "MemberAccess",
+                                "referencedDeclaration": 516,
+                                "src": "1529:32:0",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_function_external_view$__$returns$_t_address_$",
+                                  "typeString": "function () view external returns (address)"
+                                }
+                              },
+                              "id": 87,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "kind": "functionCall",
+                              "lValueRequested": false,
+                              "names": [],
+                              "nodeType": "FunctionCall",
+                              "src": "1529:34:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_address",
+                                "typeString": "address"
+                              }
+                            }
+                          ],
+                          "expression": {
+                            "argumentTypes": [
+                              {
+                                "typeIdentifier": "t_address",
+                                "typeString": "address"
+                              }
+                            ],
+                            "id": 84,
+                            "name": "BusinessOwner",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 287,
+                            "src": "1515:13:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_type$_t_contract$_BusinessOwner_$287_$",
+                              "typeString": "type(contract BusinessOwner)"
+                            }
+                          },
+                          "id": 88,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "kind": "typeConversion",
+                          "lValueRequested": false,
+                          "names": [],
+                          "nodeType": "FunctionCall",
+                          "src": "1515:49:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_BusinessOwner_$287",
+                            "typeString": "contract BusinessOwner"
+                          }
+                        },
+                        "id": 89,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "login",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 277,
+                        "src": "1515:55:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_bytes32_$_t_bytes32_$_t_bytes32_$_t_bytes32_$",
+                          "typeString": "function (address) view external returns (bytes32,bytes32,bytes32,bytes32)"
+                        }
+                      },
+                      "id": 91,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "1515:62:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_tuple$_t_bytes32_$_t_bytes32_$_t_bytes32_$_t_bytes32_$",
+                        "typeString": "tuple(bytes32,bytes32,bytes32,bytes32)"
+                      }
+                    },
+                    "src": "1480:97:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 93,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1480:97:0"
+                },
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    },
+                    "id": 96,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 94,
+                      "name": "param1",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 56,
+                      "src": "1591:6:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes32",
+                        "typeString": "bytes32"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "!=",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "hexValue": "307830",
+                      "id": 95,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "1601:3:0",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_0_by_1",
+                        "typeString": "int_const 0"
+                      },
+                      "value": "0x0"
+                    },
+                    "src": "1591:13:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 100,
+                  "nodeType": "IfStatement",
+                  "src": "1588:60:0",
+                  "trueBody": {
+                    "expression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 97,
+                        "name": "userType",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 10,
+                        "src": "1626:8:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_enum$_userType_$10_$",
+                          "typeString": "type(enum Authentication.userType)"
+                        }
+                      },
+                      "id": 98,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "memberName": "BusinessOwner",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "1626:22:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_userType_$10",
+                        "typeString": "enum Authentication.userType"
+                      }
+                    },
+                    "functionReturnParameters": 54,
+                    "id": 99,
+                    "nodeType": "Return",
+                    "src": "1619:29:0"
+                  }
+                },
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 107,
+                        "name": "_user",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 50,
+                        "src": "1719:5:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": null,
+                        "arguments": [
+                          {
+                            "argumentTypes": null,
+                            "arguments": [],
+                            "expression": {
+                              "argumentTypes": [],
+                              "expression": {
+                                "argumentTypes": null,
+                                "id": 102,
+                                "name": "manager",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 12,
+                                "src": "1673:7:0",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_contract$_ContractManager_$621",
+                                  "typeString": "contract ContractManager"
+                                }
+                              },
+                              "id": 103,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "memberName": "getGovernmentContract",
+                              "nodeType": "MemberAccess",
+                              "referencedDeclaration": 540,
+                              "src": "1673:29:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_function_external_view$__$returns$_t_address_$",
+                                "typeString": "function () view external returns (address)"
+                              }
+                            },
+                            "id": 104,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "kind": "functionCall",
+                            "lValueRequested": false,
+                            "names": [],
+                            "nodeType": "FunctionCall",
+                            "src": "1673:31:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          ],
+                          "id": 101,
+                          "name": "Government",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 838,
+                          "src": "1662:10:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_contract$_Government_$838_$",
+                            "typeString": "type(contract Government)"
+                          }
+                        },
+                        "id": 105,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "1662:43:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Government_$838",
+                          "typeString": "contract Government"
+                        }
+                      },
+                      "id": 106,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "isGovernment",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 702,
+                      "src": "1662:56:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_bool_$",
+                        "typeString": "function (address) view external returns (bool)"
+                      }
+                    },
+                    "id": 108,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1662:63:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 112,
+                  "nodeType": "IfStatement",
+                  "src": "1659:107:0",
+                  "trueBody": {
+                    "expression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 109,
+                        "name": "userType",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 10,
+                        "src": "1747:8:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_enum$_userType_$10_$",
+                          "typeString": "type(enum Authentication.userType)"
+                        }
+                      },
+                      "id": 110,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "memberName": "Government",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "1747:19:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_userType_$10",
+                        "typeString": "enum Authentication.userType"
+                      }
+                    },
+                    "functionReturnParameters": 54,
+                    "id": 111,
+                    "nodeType": "Return",
+                    "src": "1740:26:0"
+                  }
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "expression": {
+                      "argumentTypes": null,
+                      "id": 113,
+                      "name": "userType",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 10,
+                      "src": "1784:8:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_type$_t_enum$_userType_$10_$",
+                        "typeString": "type(enum Authentication.userType)"
+                      }
+                    },
+                    "id": 114,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "lValueRequested": false,
+                    "memberName": "NotRegistered",
+                    "nodeType": "MemberAccess",
+                    "referencedDeclaration": null,
+                    "src": "1784:22:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_userType_$10",
+                      "typeString": "enum Authentication.userType"
+                    }
+                  },
+                  "functionReturnParameters": 54,
+                  "id": 115,
+                  "nodeType": "Return",
+                  "src": "1777:29:0"
+                }
+              ]
+            },
+            "documentation": "@dev Returns the user type of a given user\r\n@param _user The address of the user to check\r",
+            "id": 117,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "isRegistered",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 51,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 50,
+                  "name": "_user",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 117,
+                  "src": "1232:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 49,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1232:7:0",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1231:15:0"
+            },
+            "returnParameters": {
+              "id": 54,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 53,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 117,
+                  "src": "1267:8:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_enum$_userType_$10",
+                    "typeString": "enum Authentication.userType"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 52,
+                    "name": "userType",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 10,
+                    "src": "1267:8:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_userType_$10",
+                      "typeString": "enum Authentication.userType"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1266:10:0"
+            },
+            "scope": 118,
+            "src": "1210:606:0",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 119,
+        "src": "174:1649:0"
+      }
+    ],
+    "src": "0:1825:0"
+  },
+  "legacyAST": {
+    "absolutePath": "/E/Università/Soldino-PoC/contracts/Authentication.sol",
+    "exportedSymbols": {
+      "Authentication": [
+        118
+      ]
+    },
+    "id": 119,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:0"
+      },
+      {
+        "absolutePath": "/E/Università/Soldino-PoC/contracts/ContractManager.sol",
+        "file": "./ContractManager.sol",
+        "id": 2,
+        "nodeType": "ImportDirective",
+        "scope": 119,
+        "sourceUnit": 622,
+        "src": "28:31:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/E/Università/Soldino-PoC/contracts/Citizen.sol",
+        "file": "./Citizen.sol",
+        "id": 3,
+        "nodeType": "ImportDirective",
+        "scope": 119,
+        "sourceUnit": 457,
+        "src": "61:23:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/E/Università/Soldino-PoC/contracts/BusinessOwner.sol",
+        "file": "./BusinessOwner.sol",
+        "id": 4,
+        "nodeType": "ImportDirective",
+        "scope": 119,
+        "sourceUnit": 288,
+        "src": "86:29:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/E/Università/Soldino-PoC/contracts/Government.sol",
+        "file": "./Government.sol",
+        "id": 5,
+        "nodeType": "ImportDirective",
+        "scope": 119,
+        "sourceUnit": 839,
+        "src": "117:26:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": "@title Authentication",
+        "fullyImplemented": true,
+        "id": 118,
+        "linearizedBaseContracts": [
+          118
+        ],
+        "name": "Authentication",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "Authentication.userType",
+            "id": 10,
+            "members": [
+              {
+                "id": 6,
+                "name": "NotRegistered",
+                "nodeType": "EnumValue",
+                "src": "223:13:0"
+              },
+              {
+                "id": 7,
+                "name": "Citizen",
+                "nodeType": "EnumValue",
+                "src": "238:7:0"
+              },
+              {
+                "id": 8,
+                "name": "BusinessOwner",
+                "nodeType": "EnumValue",
+                "src": "247:13:0"
+              },
+              {
+                "id": 9,
+                "name": "Government",
+                "nodeType": "EnumValue",
+                "src": "262:10:0"
+              }
+            ],
+            "name": "userType",
+            "nodeType": "EnumDefinition",
+            "src": "207:67:0"
+          },
+          {
+            "constant": false,
+            "id": 12,
+            "name": "manager",
+            "nodeType": "VariableDeclaration",
+            "scope": 118,
+            "src": "284:23:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_ContractManager_$621",
+              "typeString": "contract ContractManager"
+            },
+            "typeName": {
+              "contractScope": null,
+              "id": 11,
+              "name": "ContractManager",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 621,
+              "src": "284:15:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_ContractManager_$621",
+                "typeString": "contract ContractManager"
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 21,
+              "nodeType": "Block",
+              "src": "587:37:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 19,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 17,
+                      "name": "manager",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 12,
+                      "src": "598:7:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_ContractManager_$621",
+                        "typeString": "contract ContractManager"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 18,
+                      "name": "_manager",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 14,
+                      "src": "608:8:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_ContractManager_$621",
+                        "typeString": "contract ContractManager"
+                      }
+                    },
+                    "src": "598:18:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ContractManager_$621",
+                      "typeString": "contract ContractManager"
+                    }
+                  },
+                  "id": 20,
+                  "nodeType": "ExpressionStatement",
+                  "src": "598:18:0"
+                }
+              ]
+            },
+            "documentation": "@dev Sets the correct instance of ContractManager so that the contract may be able to call functions from other\r\n     contracts\r\n@param _manager The address of the instance of ContractManager\r",
+            "id": 22,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 15,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 14,
+                  "name": "_manager",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 22,
+                  "src": "554:24:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_ContractManager_$621",
+                    "typeString": "contract ContractManager"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 13,
+                    "name": "ContractManager",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 621,
+                    "src": "554:15:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ContractManager_$621",
+                      "typeString": "contract ContractManager"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "553:26:0"
+            },
+            "returnParameters": {
+              "id": 16,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "587:0:0"
+            },
+            "scope": 118,
+            "src": "542:82:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 36,
+              "nodeType": "Block",
+              "src": "807:85:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "commonType": {
+                          "typeIdentifier": "t_enum$_userType_$10",
+                          "typeString": "enum Authentication.userType"
+                        },
+                        "id": 32,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "argumentTypes": null,
+                          "arguments": [
+                            {
+                              "argumentTypes": null,
+                              "id": 28,
+                              "name": "_user",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 24,
+                              "src": "839:5:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_address",
+                                "typeString": "address"
+                              }
+                            }
+                          ],
+                          "expression": {
+                            "argumentTypes": [
+                              {
+                                "typeIdentifier": "t_address",
+                                "typeString": "address"
+                              }
+                            ],
+                            "id": 27,
+                            "name": "isRegistered",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 117,
+                            "src": "826:12:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_enum$_userType_$10_$",
+                              "typeString": "function (address) view returns (enum Authentication.userType)"
+                            }
+                          },
+                          "id": 29,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "kind": "functionCall",
+                          "lValueRequested": false,
+                          "names": [],
+                          "nodeType": "FunctionCall",
+                          "src": "826:19:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_userType_$10",
+                            "typeString": "enum Authentication.userType"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": "!=",
+                        "rightExpression": {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 30,
+                            "name": "userType",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 10,
+                            "src": "849:8:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_type$_t_enum$_userType_$10_$",
+                              "typeString": "type(enum Authentication.userType)"
+                            }
+                          },
+                          "id": 31,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "memberName": "NotRegistered",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": null,
+                          "src": "849:22:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_userType_$10",
+                            "typeString": "enum Authentication.userType"
+                          }
+                        },
+                        "src": "826:45:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      ],
+                      "id": 26,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        2108,
+                        2109
+                      ],
+                      "referencedDeclaration": 2108,
+                      "src": "818:7:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
+                        "typeString": "function (bool) pure"
+                      }
+                    },
+                    "id": 33,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "818:54:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 34,
+                  "nodeType": "ExpressionStatement",
+                  "src": "818:54:0"
+                },
+                {
+                  "id": 35,
+                  "nodeType": "PlaceholderStatement",
+                  "src": "883:1:0"
+                }
+              ]
+            },
+            "documentation": "@dev Checks if a user with is registered in the platform\r\n@param _user The address of the user to check\r",
+            "id": 37,
+            "name": "onlyExistingUser",
+            "nodeType": "ModifierDefinition",
+            "parameters": {
+              "id": 25,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 24,
+                  "name": "_user",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 37,
+                  "src": "792:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 23,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "792:7:0",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "791:15:0"
+            },
+            "src": "766:126:0",
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 47,
+              "nodeType": "Block",
+              "src": "1032:50:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 43,
+                          "name": "msg",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 2105,
+                          "src": "1063:3:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_magic_message",
+                            "typeString": "msg"
+                          }
+                        },
+                        "id": 44,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "sender",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": null,
+                        "src": "1063:10:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address_payable",
+                          "typeString": "address payable"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address_payable",
+                          "typeString": "address payable"
+                        }
+                      ],
+                      "id": 42,
+                      "name": "isRegistered",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 117,
+                      "src": "1050:12:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_enum$_userType_$10_$",
+                        "typeString": "function (address) view returns (enum Authentication.userType)"
+                      }
+                    },
+                    "id": 45,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1050:24:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_userType_$10",
+                      "typeString": "enum Authentication.userType"
+                    }
+                  },
+                  "functionReturnParameters": 41,
+                  "id": 46,
+                  "nodeType": "Return",
+                  "src": "1043:31:0"
+                }
+              ]
+            },
+            "documentation": "@dev Returns the user type of the user who calls the function\r",
+            "id": 48,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "login",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 38,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1000:2:0"
+            },
+            "returnParameters": {
+              "id": 41,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 40,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 48,
+                  "src": "1023:8:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_enum$_userType_$10",
+                    "typeString": "enum Authentication.userType"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 39,
+                    "name": "userType",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 10,
+                    "src": "1023:8:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_userType_$10",
+                      "typeString": "enum Authentication.userType"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1022:10:0"
+            },
+            "scope": 118,
+            "src": "986:96:0",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 116,
+              "nodeType": "Block",
+              "src": "1276:540:0",
+              "statements": [
+                {
+                  "assignments": [
+                    56,
+                    58,
+                    60,
+                    62
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 56,
+                      "name": "param1",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 116,
+                      "src": "1288:14:0",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes32",
+                        "typeString": "bytes32"
+                      },
+                      "typeName": {
+                        "id": 55,
+                        "name": "bytes32",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "1288:7:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes32",
+                          "typeString": "bytes32"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    {
+                      "constant": false,
+                      "id": 58,
+                      "name": "param2",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 116,
+                      "src": "1304:14:0",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes32",
+                        "typeString": "bytes32"
+                      },
+                      "typeName": {
+                        "id": 57,
+                        "name": "bytes32",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "1304:7:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes32",
+                          "typeString": "bytes32"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    {
+                      "constant": false,
+                      "id": 60,
+                      "name": "param3",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 116,
+                      "src": "1320:14:0",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes32",
+                        "typeString": "bytes32"
+                      },
+                      "typeName": {
+                        "id": 59,
+                        "name": "bytes32",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "1320:7:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes32",
+                          "typeString": "bytes32"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    {
+                      "constant": false,
+                      "id": 62,
+                      "name": "param4",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 116,
+                      "src": "1336:14:0",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes32",
+                        "typeString": "bytes32"
+                      },
+                      "typeName": {
+                        "id": 61,
+                        "name": "bytes32",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "1336:7:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes32",
+                          "typeString": "bytes32"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 71,
+                  "initialValue": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 69,
+                        "name": "_user",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 50,
+                        "src": "1398:5:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": null,
+                        "arguments": [
+                          {
+                            "argumentTypes": null,
+                            "arguments": [],
+                            "expression": {
+                              "argumentTypes": [],
+                              "expression": {
+                                "argumentTypes": null,
+                                "id": 64,
+                                "name": "manager",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 12,
+                                "src": "1362:7:0",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_contract$_ContractManager_$621",
+                                  "typeString": "contract ContractManager"
+                                }
+                              },
+                              "id": 65,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "memberName": "getCitizenContract",
+                              "nodeType": "MemberAccess",
+                              "referencedDeclaration": 524,
+                              "src": "1362:26:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_function_external_view$__$returns$_t_address_$",
+                                "typeString": "function () view external returns (address)"
+                              }
+                            },
+                            "id": 66,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "kind": "functionCall",
+                            "lValueRequested": false,
+                            "names": [],
+                            "nodeType": "FunctionCall",
+                            "src": "1362:28:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          ],
+                          "id": 63,
+                          "name": "Citizen",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 456,
+                          "src": "1354:7:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_contract$_Citizen_$456_$",
+                            "typeString": "type(contract Citizen)"
+                          }
+                        },
+                        "id": 67,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "1354:37:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Citizen_$456",
+                          "typeString": "contract Citizen"
+                        }
+                      },
+                      "id": 68,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "login",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 446,
+                      "src": "1354:43:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_bytes32_$_t_bytes32_$_t_bytes32_$_t_bytes32_$",
+                        "typeString": "function (address) view external returns (bytes32,bytes32,bytes32,bytes32)"
+                      }
+                    },
+                    "id": 70,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1354:50:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$_t_bytes32_$_t_bytes32_$_t_bytes32_$_t_bytes32_$",
+                      "typeString": "tuple(bytes32,bytes32,bytes32,bytes32)"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "1287:117:0"
+                },
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    },
+                    "id": 74,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 72,
+                      "name": "param1",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 56,
+                      "src": "1418:6:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes32",
+                        "typeString": "bytes32"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "!=",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "hexValue": "307830",
+                      "id": 73,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "1428:3:0",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_0_by_1",
+                        "typeString": "int_const 0"
+                      },
+                      "value": "0x0"
+                    },
+                    "src": "1418:13:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 78,
+                  "nodeType": "IfStatement",
+                  "src": "1415:54:0",
+                  "trueBody": {
+                    "expression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 75,
+                        "name": "userType",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 10,
+                        "src": "1453:8:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_enum$_userType_$10_$",
+                          "typeString": "type(enum Authentication.userType)"
+                        }
+                      },
+                      "id": 76,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "memberName": "Citizen",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "1453:16:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_userType_$10",
+                        "typeString": "enum Authentication.userType"
+                      }
+                    },
+                    "functionReturnParameters": 54,
+                    "id": 77,
+                    "nodeType": "Return",
+                    "src": "1446:23:0"
+                  }
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 92,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "components": [
+                        {
+                          "argumentTypes": null,
+                          "id": 79,
+                          "name": "param1",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 56,
+                          "src": "1481:6:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bytes32",
+                            "typeString": "bytes32"
+                          }
+                        },
+                        {
+                          "argumentTypes": null,
+                          "id": 80,
+                          "name": "param2",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 58,
+                          "src": "1489:6:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bytes32",
+                            "typeString": "bytes32"
+                          }
+                        },
+                        {
+                          "argumentTypes": null,
+                          "id": 81,
+                          "name": "param3",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 60,
+                          "src": "1497:6:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bytes32",
+                            "typeString": "bytes32"
+                          }
+                        },
+                        {
+                          "argumentTypes": null,
+                          "id": 82,
+                          "name": "param4",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 62,
+                          "src": "1505:6:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bytes32",
+                            "typeString": "bytes32"
+                          }
+                        }
+                      ],
+                      "id": 83,
+                      "isConstant": false,
+                      "isInlineArray": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "nodeType": "TupleExpression",
+                      "src": "1480:32:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_tuple$_t_bytes32_$_t_bytes32_$_t_bytes32_$_t_bytes32_$",
+                        "typeString": "tuple(bytes32,bytes32,bytes32,bytes32)"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "id": 90,
+                          "name": "_user",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 50,
+                          "src": "1571:5:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": null,
+                          "arguments": [
+                            {
+                              "argumentTypes": null,
+                              "arguments": [],
+                              "expression": {
+                                "argumentTypes": [],
+                                "expression": {
+                                  "argumentTypes": null,
+                                  "id": 85,
+                                  "name": "manager",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 12,
+                                  "src": "1529:7:0",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_contract$_ContractManager_$621",
+                                    "typeString": "contract ContractManager"
+                                  }
+                                },
+                                "id": 86,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": false,
+                                "lValueRequested": false,
+                                "memberName": "getBusinessOwnerContract",
+                                "nodeType": "MemberAccess",
+                                "referencedDeclaration": 516,
+                                "src": "1529:32:0",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_function_external_view$__$returns$_t_address_$",
+                                  "typeString": "function () view external returns (address)"
+                                }
+                              },
+                              "id": 87,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "kind": "functionCall",
+                              "lValueRequested": false,
+                              "names": [],
+                              "nodeType": "FunctionCall",
+                              "src": "1529:34:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_address",
+                                "typeString": "address"
+                              }
+                            }
+                          ],
+                          "expression": {
+                            "argumentTypes": [
+                              {
+                                "typeIdentifier": "t_address",
+                                "typeString": "address"
+                              }
+                            ],
+                            "id": 84,
+                            "name": "BusinessOwner",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 287,
+                            "src": "1515:13:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_type$_t_contract$_BusinessOwner_$287_$",
+                              "typeString": "type(contract BusinessOwner)"
+                            }
+                          },
+                          "id": 88,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "kind": "typeConversion",
+                          "lValueRequested": false,
+                          "names": [],
+                          "nodeType": "FunctionCall",
+                          "src": "1515:49:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_BusinessOwner_$287",
+                            "typeString": "contract BusinessOwner"
+                          }
+                        },
+                        "id": 89,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "login",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 277,
+                        "src": "1515:55:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_bytes32_$_t_bytes32_$_t_bytes32_$_t_bytes32_$",
+                          "typeString": "function (address) view external returns (bytes32,bytes32,bytes32,bytes32)"
+                        }
+                      },
+                      "id": 91,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "1515:62:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_tuple$_t_bytes32_$_t_bytes32_$_t_bytes32_$_t_bytes32_$",
+                        "typeString": "tuple(bytes32,bytes32,bytes32,bytes32)"
+                      }
+                    },
+                    "src": "1480:97:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 93,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1480:97:0"
+                },
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    },
+                    "id": 96,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 94,
+                      "name": "param1",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 56,
+                      "src": "1591:6:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes32",
+                        "typeString": "bytes32"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "!=",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "hexValue": "307830",
+                      "id": 95,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "1601:3:0",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_0_by_1",
+                        "typeString": "int_const 0"
+                      },
+                      "value": "0x0"
+                    },
+                    "src": "1591:13:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 100,
+                  "nodeType": "IfStatement",
+                  "src": "1588:60:0",
+                  "trueBody": {
+                    "expression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 97,
+                        "name": "userType",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 10,
+                        "src": "1626:8:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_enum$_userType_$10_$",
+                          "typeString": "type(enum Authentication.userType)"
+                        }
+                      },
+                      "id": 98,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "memberName": "BusinessOwner",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "1626:22:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_userType_$10",
+                        "typeString": "enum Authentication.userType"
+                      }
+                    },
+                    "functionReturnParameters": 54,
+                    "id": 99,
+                    "nodeType": "Return",
+                    "src": "1619:29:0"
+                  }
+                },
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 107,
+                        "name": "_user",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 50,
+                        "src": "1719:5:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": null,
+                        "arguments": [
+                          {
+                            "argumentTypes": null,
+                            "arguments": [],
+                            "expression": {
+                              "argumentTypes": [],
+                              "expression": {
+                                "argumentTypes": null,
+                                "id": 102,
+                                "name": "manager",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 12,
+                                "src": "1673:7:0",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_contract$_ContractManager_$621",
+                                  "typeString": "contract ContractManager"
+                                }
+                              },
+                              "id": 103,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "memberName": "getGovernmentContract",
+                              "nodeType": "MemberAccess",
+                              "referencedDeclaration": 540,
+                              "src": "1673:29:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_function_external_view$__$returns$_t_address_$",
+                                "typeString": "function () view external returns (address)"
+                              }
+                            },
+                            "id": 104,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "kind": "functionCall",
+                            "lValueRequested": false,
+                            "names": [],
+                            "nodeType": "FunctionCall",
+                            "src": "1673:31:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          ],
+                          "id": 101,
+                          "name": "Government",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 838,
+                          "src": "1662:10:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_contract$_Government_$838_$",
+                            "typeString": "type(contract Government)"
+                          }
+                        },
+                        "id": 105,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "1662:43:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Government_$838",
+                          "typeString": "contract Government"
+                        }
+                      },
+                      "id": 106,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "isGovernment",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 702,
+                      "src": "1662:56:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_bool_$",
+                        "typeString": "function (address) view external returns (bool)"
+                      }
+                    },
+                    "id": 108,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1662:63:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 112,
+                  "nodeType": "IfStatement",
+                  "src": "1659:107:0",
+                  "trueBody": {
+                    "expression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 109,
+                        "name": "userType",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 10,
+                        "src": "1747:8:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_enum$_userType_$10_$",
+                          "typeString": "type(enum Authentication.userType)"
+                        }
+                      },
+                      "id": 110,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "memberName": "Government",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "1747:19:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_userType_$10",
+                        "typeString": "enum Authentication.userType"
+                      }
+                    },
+                    "functionReturnParameters": 54,
+                    "id": 111,
+                    "nodeType": "Return",
+                    "src": "1740:26:0"
+                  }
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "expression": {
+                      "argumentTypes": null,
+                      "id": 113,
+                      "name": "userType",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 10,
+                      "src": "1784:8:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_type$_t_enum$_userType_$10_$",
+                        "typeString": "type(enum Authentication.userType)"
+                      }
+                    },
+                    "id": 114,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "lValueRequested": false,
+                    "memberName": "NotRegistered",
+                    "nodeType": "MemberAccess",
+                    "referencedDeclaration": null,
+                    "src": "1784:22:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_userType_$10",
+                      "typeString": "enum Authentication.userType"
+                    }
+                  },
+                  "functionReturnParameters": 54,
+                  "id": 115,
+                  "nodeType": "Return",
+                  "src": "1777:29:0"
+                }
+              ]
+            },
+            "documentation": "@dev Returns the user type of a given user\r\n@param _user The address of the user to check\r",
+            "id": 117,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "isRegistered",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 51,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 50,
+                  "name": "_user",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 117,
+                  "src": "1232:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 49,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1232:7:0",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1231:15:0"
+            },
+            "returnParameters": {
+              "id": 54,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 53,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 117,
+                  "src": "1267:8:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_enum$_userType_$10",
+                    "typeString": "enum Authentication.userType"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 52,
+                    "name": "userType",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 10,
+                    "src": "1267:8:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_userType_$10",
+                      "typeString": "enum Authentication.userType"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1266:10:0"
+            },
+            "scope": 118,
+            "src": "1210:606:0",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 119,
+        "src": "174:1649:0"
+      }
+    ],
+    "src": "0:1825:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+  },
+  "networks": {
+    "4447": {
+      "events": {},
+      "links": {},
+      "address": "0xCE3Aa3B10008515437fFd44451b5806612fF7424",
+      "transactionHash": "0xc480c56aa57b81b2d35ffdd03ecad615ec334089d4f431099d9451841fe78212"
+    },
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xaaFc39C551967Fb57B444B4cE150C131F76e71C6",
+      "transactionHash": "0xae1df92b6fb39b9cd4367063fe9690763f33b2c45e50a45d489417fdd5cc7e21"
+    }
+  },
+  "schemaVersion": "3.0.1",
+  "updatedAt": "2019-03-03T19:05:09.762Z",
+  "devdoc": {
+    "methods": {
+      "constructor": {
+        "details": "Sets the correct instance of ContractManager so that the contract may be able to call functions from other\r     contracts\r",
+        "params": {
+          "_manager": "The address of the instance of ContractManager\r"
+        }
+      },
+      "isRegistered(address)": {
+        "details": "Returns the user type of a given user\r",
+        "params": {
+          "_user": "The address of the user to check\r"
+        }
+      },
+      "login()": {
+        "details": "Returns the user type of the user who calls the function\r"
+      }
+    },
+    "title": "Authentication"
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
