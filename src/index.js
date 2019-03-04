@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 import { Provider } from 'react-redux'
 import { syncHistoryWithStore } from 'react-router-redux'
-import { UserIsAuthenticated, UserIsCitizen, UserIsBusinessOwner, UserIsGovernment, UserIsNotAuthenticated } from './util/wrappers.js'
+import { UserIsAuthenticated, UserIsGovernment, UserIsNotAuthenticated } from './util/wrappers.js'
 import getWeb3 from './util/web3/getWeb3'
 
 // Layouts
@@ -17,7 +17,7 @@ import Operations from './user/layouts/operations/Operations'
 import store from './store'
 
 // Initialize react-router-redux.
-const history = syncHistoryWithStore(browserHistory, store)
+const history = syncHistoryWithStore(browserHistory, store);
 
 // Initialize web3 and set in Redux.
 getWeb3

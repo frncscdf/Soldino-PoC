@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router'
-import { HiddenOnlyAuth, VisibleOnlyGovernment, VisibleOnlyCitizen, VisibleOnlyBusinessOwner,VisibleOnlyAuth } from './util/wrappers.js'
+import { HiddenOnlyAuth, VisibleOnlyGovernment,VisibleOnlyAuth } from './util/wrappers.js'
 
 // UI Components
 import LoginButtonContainer from './user/ui/loginbutton/LoginButtonContainer'
